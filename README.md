@@ -29,7 +29,7 @@ Searching - Graph - Performance / Complexity Analysis
   Member 3          T.M.F.Naseehath   23DA2-0567        Linked List
                     Suha                                
 
-  Member 4          F.Fahjath Sahya   23DA2-0703        Graph,
+  Member 4          F.Fahjath Sahya   23DA2-0702        Graph,
                                                         Integration,
                                                         Performance and
                                                         Testing
@@ -75,7 +75,7 @@ linked list component.
 
 ### Member 4 - F.Fahjath Sahya
 
-**Student ID:** 23DA2-0703
+**Student ID:** 23DA2-0702
 
 **Assigned Responsibility:** Graph, Main System Integration, Performance
 / Complexity and Testing

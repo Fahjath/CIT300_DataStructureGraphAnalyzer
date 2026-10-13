@@ -9,13 +9,13 @@
 This project is a Java-based console application developed for
 CIT300 – Data Structures and Algorithms.
 
-The application demonstrates the practical implementation of different
-data structures, searching algorithms, graph operations, traversal
-algorithms, performance and complexity, input validation, testing,
-and system integration.
+The application demonstrates the practical implementation and use of
+different data structures, searching algorithms, graph operations,
+graph traversal, performance and complexity, input validation,
+testing, and system integration.
 
-All components are integrated into one console-based application
-through a main menu.
+All required components are integrated into one console-based
+application through a main menu.
 
 ---
 
@@ -34,8 +34,7 @@ The system demonstrates:
 - BFS and DFS traversal
 - Performance and complexity
 - Input validation
-- Object-oriented programming
-- Testing
+- Object-oriented programming principles
 - GitHub-based collaboration
 - Individual team contribution
 
@@ -43,19 +42,31 @@ The system demonstrates:
 
 ## 3. System Requirements
 
-The application includes the required components:
+The application includes all required components:
+
+### Data Structures
 
 - Array
 - Stack
 - Queue
 - Linked List
-- Searching
-- Graph
+
+### Algorithms
+
+- Linear Search
+- Binary Search
 - BFS Traversal
 - DFS Traversal
-- Performance / Complexity
-- Main System Integration
-- Input Validation
+
+### Other Requirements
+
+- Graph representation and operations
+- Performance / Complexity demonstration
+- Input validation
+- Main console application
+- Individual testing
+- Integrated system testing
+- GitHub collaboration
 
 Each component provides appropriate operations through the main menu
 and its relevant submenu.
@@ -66,6 +77,7 @@ and its relevant submenu.
 
 The application provides the following main menu:
 
+```text
 ==========================================
         DATA STRUCTURE & GRAPH ANALYZER
 ==========================================
@@ -81,8 +93,12 @@ The application provides the following main menu:
 9. Exit
 
 Enter your choice:
+```
 
-Each option provides access to the relevant functionality.
+Each menu option provides access to the relevant functionality.
+
+The menu structure allows users to access each implemented component
+and return to the main menu after completing an operation.
 
 ---
 
@@ -99,15 +115,16 @@ Each option provides access to the relevant functionality.
 
 ## 6. Assigned Responsibilities
 
-| Member | Main Responsibility | Performance / Complexity |
-|---|---|---|
-| Member 1 | Array and Searching | Array, Linear Search and Binary Search |
-| Member 2 | Stack and Queue | Stack and Queue operations |
-| Member 3 | Linked List | Linked List operations |
-| Member 4 | Graph, Integration and Testing | Graph, BFS and DFS |
+| Member | Assigned Responsibility |
+|---|---|
+| Member 1 | Array and Searching |
+| Member 2 | Stack and Queue |
+| Member 3 | Linked List |
+| Member 4 | Graph, Main System Integration, Performance / Complexity and Testing |
 
-All four members also participated in GitHub collaboration,
-testing, integration support and final project preparation.
+All four members also participated in testing, GitHub collaboration,
+code review, integration support, documentation, and final
+demonstration preparation.
 
 ---
 
@@ -137,16 +154,15 @@ testing, integration support and final project preparation.
 - Analyzed Array operation complexity.
 - Explained Linear Search complexity.
 - Explained Binary Search complexity.
-- Compared Linear Search and Binary Search.
-- Explained the performance difference between the searching methods.
+- Compared Linear Search and Binary Search performance.
 
 ### GitHub Contribution
 
 - Worked on the assigned development branch.
 - Created meaningful commits for Array and Searching work.
 - Pushed the completed work to GitHub.
-- Created a Pull Request for the completed component.
-- Participated in code review and integration testing.
+- Participated in Pull Request and code review activities.
+- Participated in integration testing.
 
 ---
 
@@ -183,8 +199,8 @@ testing, integration support and final project preparation.
 - Worked on the assigned development branch.
 - Created meaningful commits for Stack and Queue work.
 - Pushed the completed work to GitHub.
-- Created a Pull Request for the completed component.
-- Participated in code review and integration testing.
+- Participated in Pull Request and code review activities.
+- Participated in integration testing.
 
 ---
 
@@ -218,8 +234,8 @@ testing, integration support and final project preparation.
 - Worked on the assigned development branch.
 - Created meaningful commits for Linked List work.
 - Pushed the completed work to GitHub.
-- Created a Pull Request for the completed component.
-- Participated in code review and integration testing.
+- Participated in Pull Request and code review activities.
+- Participated in integration testing.
 
 ---
 
@@ -227,7 +243,8 @@ testing, integration support and final project preparation.
 
 **Student ID:** 23DA2-0702
 
-**Assigned Responsibility:** Graph, Integration and Testing
+**Assigned Responsibility:** Graph, Main System Integration,
+Performance / Complexity and Testing
 
 ### Development Contribution
 
@@ -242,6 +259,7 @@ testing, integration support and final project preparation.
 - Created and tested `CampusGraphTest`.
 - Integrated the completed components into the main application.
 - Implemented the main menu.
+- Implemented Performance / Complexity functionality.
 - Implemented Display All Results.
 - Added input validation in the integrated application.
 - Added duplicate student validation.
@@ -249,32 +267,33 @@ testing, integration support and final project preparation.
 
 ### Performance / Complexity Contribution
 
-- Analyzed Graph operation complexity.
+- Analyzed graph operation complexity.
 - Explained BFS complexity.
 - Explained DFS complexity.
 - Explained graph traversal performance.
-- Helped integrate the complexity information from the different
-  components into the Performance / Complexity section.
+- Integrated complexity information from the different components
+  into the Performance / Complexity section.
 
 ### GitHub Contribution
 
-- Worked on the assigned Graph / Integration branch.
+- Worked on the assigned Graph / Integration development branch.
 - Created meaningful commits for Graph and Integration work.
 - Pushed the completed work to GitHub.
-- Created a Pull Request for the Graph / Integration work.
-- Participated in reviewing and testing the other components.
-- Performed final integration testing.
-- Completed the final merge into the `main` branch after integration.
+- Participated in Pull Request and code review activities.
+- Coordinated final integration testing.
+- Completed the final merge into the `main` branch.
 
 ---
 
 ## 8. Team Participation
 
-The project work was divided among all four members according to
-their assigned responsibilities.
+The project was divided among all four members according to their
+assigned responsibilities.
 
-All members contributed to their own components and also participated
-in the overall development and testing process.
+Each member developed and tested their assigned component.
+
+All members also participated in the overall project development
+process.
 
 ### Team Activities
 
@@ -283,21 +302,22 @@ in the overall development and testing process.
 - Individual component development
 - Performance / complexity analysis
 - Testing
-- Error fixing
-- GitHub collaboration
+- Debugging
 - Code review
+- GitHub collaboration
 - Integration testing
 - Final system testing
+- Documentation
 - Demonstration preparation
 
 ### Team Work Distribution
 
-| Member | Main Development | Complexity / Performance | GitHub |
+| Member | Main Development | Complexity / Performance | GitHub / Team Participation |
 |---|---|---|---|
-| Member 1 | Array + Searching | Array and Searching | Branch, commits, Pull Request |
-| Member 2 | Stack + Queue | Stack and Queue | Branch, commits, Pull Request |
-| Member 3 | Linked List | Linked List | Branch, commits, Pull Request |
-| Member 4 | Graph + Integration | Graph, BFS and DFS | Branch, commits, Pull Request, final merge |
+| Member 1 | Array + Searching | Array and Searching | Branch, commits, Pull Request and testing |
+| Member 2 | Stack + Queue | Stack and Queue | Branch, commits, Pull Request and testing |
+| Member 3 | Linked List | Linked List | Branch, commits, Pull Request and testing |
+| Member 4 | Graph + Integration | Graph, BFS and DFS | Branch, commits, Pull Request, final integration and merge |
 
 The final system was completed through the combined work of all
 four members.
@@ -351,8 +371,8 @@ four members.
 ### Performance / Complexity
 
 - Displays performance and complexity information.
-- Provides complexity information for implemented algorithms.
-- Allows comparison of relevant algorithmic operations.
+- Provides complexity information for relevant algorithms.
+- Supports explanation and comparison of algorithmic performance.
 
 ### Display All Results
 
@@ -364,91 +384,237 @@ four members.
 - Handles invalid operations.
 - Prevents duplicate student records.
 - Validates graph operations.
-- Handles invalid graph inputs.
+- Handles invalid graph input.
 
 ---
 
-## 10. Graph Component
+## 10. Data Structure and Algorithm Components
+
+### Array Component
+
+The Array component is used to store and manage student records.
+
+It supports:
+
+- Insert Student
+- Delete Student
+- Search Student
+- Display Students
+
+---
+
+### Stack Component
+
+The Stack component follows the Last In, First Out (LIFO) principle
+for managing student records.
+
+It supports:
+
+- Push
+- Pop
+- Peek
+- Display Stack
+
+The system also handles invalid operations such as attempting to
+operate on an empty stack.
+
+---
+
+### Queue Component
+
+The Queue component follows the First In, First Out (FIFO) principle
+for managing student records.
+
+It supports:
+
+- Enqueue
+- Dequeue
+- Peek / Front
+- Display Queue
+
+The system also handles invalid operations such as attempting to
+dequeue from an empty queue.
+
+---
+
+### Linked List Component
+
+The Linked List component stores student records using linked nodes
+and supports dynamic data management.
+
+It supports:
+
+- Insert Student
+- Delete Student
+- Search Student
+- Display Students
+
+---
+
+### Searching Component
+
+The Searching component provides algorithms for finding student
+records.
+
+It includes:
+
+- Linear Search
+- Binary Search
+
+Linear Search checks elements sequentially, while Binary Search
+reduces the search range by half when suitable sorted data is used.
+
+---
+
+### Graph Component
 
 The Graph component represents campus locations as vertices and
 connections between locations as edges.
 
-### Example Campus Locations
+Example campus locations:
 
+```text
 Library
 Cafeteria
 Lecture Hall
 Laboratory
 Main Gate
+```
 
-### Example Graph
+Example graph:
 
+```text
 Library -> [Cafeteria, Lecture Hall]
 Cafeteria -> [Library, Laboratory]
 Lecture Hall -> [Library, Main Gate]
 Laboratory -> [Cafeteria]
 Main Gate -> [Lecture Hall]
-
-### Graph Operations
+```
 
 The Graph component supports:
 
-1. Add Vertex
-2. Add Edge
-3. Display Graph
-4. Search Vertex
-5. BFS Traversal
-6. DFS Traversal
-7. Return to Main Menu
+- Add Vertex
+- Add Edge
+- Display Graph
+- Search Vertex
+- BFS Traversal
+- DFS Traversal
 
-The graph uses a suitable graph representation to store campus
-locations and their connections.
+The graph uses a suitable representation to store campus locations
+and their connections.
 
 ---
 
-## 11. Performance / Complexity Demonstration
+### Performance / Complexity Component
 
-The project includes performance and complexity analysis for the
+The Performance / Complexity component provides performance and
+complexity information for the implemented data structures and
+algorithms.
+
+It includes:
+
+- Array operation analysis
+- Stack operation analysis
+- Queue operation analysis
+- Linked List operation analysis
+- Linear Search analysis
+- Binary Search analysis
+- BFS analysis
+- DFS analysis
+
+---
+
+### Input Validation Component
+
+The Input Validation component helps the application handle
+incorrect or invalid user input.
+
+It includes:
+
+- Invalid menu input handling
+- Invalid operation handling
+- Duplicate student validation
+- Graph input validation
+- Missing or unavailable data handling
+
+---
+
+## 11. Performance and Complexity
+
+Performance and algorithmic complexity were considered for the
 implemented data structures and algorithms.
 
 ### Linear Search
 
 Linear Search checks elements one by one.
 
+```text
 Time Complexity: O(n)
+```
 
 ### Binary Search
 
 Binary Search repeatedly divides the search range into two parts.
 
+```text
 Time Complexity: O(log n)
+```
 
+### Stack
+
+Typical Push, Pop and Peek operations are:
+
+```text
+Time Complexity: O(1)
+```
+
+### Queue
+
+Typical Enqueue, Dequeue and Peek / Front operations are:
+
+```text
+Time Complexity: O(1)
+```
+
+### Linked List
+
+Linked List complexity depends on the operation and implementation.
+
+```text
+Search: O(n)
+Traversal / Display: O(n)
+```
+
+Insertion and deletion depend on the position and implementation.
 
 ### BFS
 
-Breadth-First Search visits graph vertices level by level.
+Breadth-First Search visits vertices level by level.
 
-
+```text
 Time Complexity: O(V + E)
+```
 
 ### DFS
 
 Depth-First Search explores a path deeply before backtracking.
 
+```text
 Time Complexity: O(V + E)
+```
 
 Where:
 
+```text
 V = Number of vertices
 E = Number of edges
-
-### Team Complexity Contribution
+```
 
 Each member is responsible for understanding and explaining the
 complexity of the operations related to their assigned component.
 
-The Performance / Complexity section combines these explanations
-into the integrated application.
+The integrated Performance / Complexity functionality combines the
+relevant information for the complete application.
 
 ---
 
@@ -457,19 +623,49 @@ into the integrated application.
 The individual components were tested using their relevant test
 classes.
 
-### Individual Tests
+### Test Classes
 
-- `StudentArrayTest`
-- `StudentStackTest`
-- `StudentQueueTest`
-- `StudentLinkedListTest`
-- `CampusGraphTest`
+```text
+StudentArrayTest
+StudentStackTest
+StudentQueueTest
+StudentLinkedListTest
+CampusGraphTest
+```
+
+### Individual Component Testing
+
+The team tested:
+
+- Array insertion
+- Array deletion
+- Array search
+- Array display
+- Stack Push
+- Stack Pop
+- Stack Peek
+- Queue Enqueue
+- Queue Dequeue
+- Queue Peek / Front
+- Linked List insertion
+- Linked List deletion
+- Linked List search
+- Linked List display
+- Linear Search
+- Binary Search
+- Graph vertex operations
+- Graph edge operations
+- Graph display
+- Graph search
+- BFS
+- DFS
 
 ### Integrated System Testing
 
 The complete application was tested for:
 
 - Main menu navigation
+- Submenu navigation
 - Array operations
 - Stack operations
 - Queue operations
@@ -482,11 +678,11 @@ The complete application was tested for:
 - Display All Results
 - Input validation
 - Duplicate student validation
-- Returning to the Main Menu
 - Invalid operations
+- Returning to the Main Menu
 
-The team tested the individual components and the final integrated
-application.
+The final integrated system was tested to ensure that the different
+components work correctly together.
 
 ---
 
@@ -504,6 +700,7 @@ The project was developed using:
 
 ## 14. Project Structure
 
+```text
 CIT300_DataStructureGraphAnalyzer
 │
 ├── src
@@ -538,7 +735,7 @@ CIT300_DataStructureGraphAnalyzer
 │       └── Student.java
 │
 └── README.md
-
+```
 
 ---
 
@@ -548,13 +745,13 @@ CIT300_DataStructureGraphAnalyzer
 
 GitHub was used for source-code management and team collaboration.
 
-All four members participated in the GitHub development process.
+The project development was divided among the four members.
 
-The collaboration process included:
+The GitHub collaboration process included:
 
-- Individual development branches
+- Development branches
 - Meaningful commits
-- Pushing code to GitHub
+- Pushing completed work
 - Pull Requests
 - Code review
 - Testing
@@ -563,54 +760,18 @@ The collaboration process included:
 
 ### GitHub Contribution
 
-Member 1
-    ↓
-Array / Searching Branch
-    ↓
-Commits
-    ↓
-Pull Request
-    ↓
-Integration
+| Member | Development Area | GitHub Activity |
+|---|---|---|
+| Member 1 | Array and Searching | Branch, commits, Pull Request and testing |
+| Member 2 | Stack and Queue | Branch, commits, Pull Request and testing |
+| Member 3 | Linked List | Branch, commits, Pull Request and testing |
+| Member 4 | Graph and Integration | Branch, commits, Pull Request, integration and final merge |
 
-
-Member 2
-    ↓
-Stack / Queue Branch
-    ↓
-Commits
-    ↓
-Pull Request
-    ↓
-Integration
-
-
-Member 3
-    ↓
-Linked List Branch
-    ↓
-Commits
-    ↓
-Pull Request
-    ↓
-Integration
-
-
-Member 4
-    ↓
-Graph / Integration Branch
-    ↓
-Commits
-    ↓
-Pull Request
-    ↓
-Final Integration
-    ↓
-main
-
-
-The final integrated application contains the work of all four
+The final `main` branch contains the integrated work of all four
 members.
+
+GitHub collaboration provides evidence of the development process
+through branches, commits and Pull Requests.
 
 ### Demonstration Video
 
@@ -619,7 +780,7 @@ The final demonstration video contains a section for each member.
 Each member demonstrates:
 
 1. Self introduction
-2. Student ID
+2. Name and Student ID
 3. Assigned responsibility
 4. Relevant code
 5. Program functionality
@@ -627,39 +788,49 @@ Each member demonstrates:
 7. Complexity / performance explanation
 8. Integration with the complete system
 
-The final video is merged into one demonstration video with a
-duration of less than 15 minutes.
+Each member appears on camera while presenting their contribution.
 
-Each member's face is clearly visible during their respective
-presentation.
+The individual sections are combined into one final demonstration
+video with a duration of less than 15 minutes.
+
+The final video demonstrates the complete integrated system and the
+contribution of every member.
 
 ---
 
-## 16. Deliverables and Final Submission
+## 16. Deliverables, Running Instructions and Final Submission
 
 ### Project Deliverables
 
 The project includes:
 
 1. Complete Java project
-2. GitHub repository
-3. README documentation
-4. Individual member contributions
-5. GitHub collaboration evidence
-6. One merged demonstration video
+2. Java source code
+3. Test classes
+4. README documentation
+5. GitHub repository
+6. GitHub collaboration evidence
+7. Final integrated console application
+8. One merged demonstration video
 
-### README Requirements
+### README Contents
 
-This README contains:
+This README includes:
 
 - Project title
 - Project description
+- Assignment objective
 - Team member names
 - Student IDs
 - Assigned responsibilities
 - Individual contributions
+- Team participation
 - Technologies used
 - Main system features
+- Performance / Complexity
+- Testing
+- Project structure
+- GitHub collaboration
 - Instructions for running the program
 
 ### How to Run the Project
@@ -670,15 +841,17 @@ Open the project in Eclipse IDE.
 
 #### Step 2
 
-Make sure there are no compilation errors.
+Make sure the project has no compilation errors.
 
 #### Step 3
 
 Open:
 
+```text
 src
  └── app
       └── Main.java
+```
 
 #### Step 4
 
@@ -686,8 +859,9 @@ Right-click `Main.java`.
 
 Select:
 
+```text
 Run As → Java Application
-
+```
 
 #### Step 5
 
@@ -695,73 +869,82 @@ The Main Menu will appear.
 
 #### Step 6
 
-Enter the required option number to access each component.
+Enter the required menu option number to access the relevant
+component.
 
-### Final Submission Checklist
-
-☐ Complete Java project implemented.
-
-☐ Array component completed.
-
-☐ Stack component completed.
-
-☐ Queue component completed.
-
-☐ Linked List component completed.
-
-☐ Searching functionality completed.
-
-☐ Graph component completed.
-
-☐ BFS / DFS completed.
-
-☐ Performance / Complexity demonstration completed.
-
-☐ Main console application integrated.
-
-☐ All group members' names are correct.
-
-☐ All student IDs are correct.
-
-☐ Responsibilities are documented.
-
-☐ Individual contributions are documented.
-
-☐ GitHub repository is complete.
-
-☐ README is complete and accurate.
-
-☐ GitHub branches are available.
-
-☐ Meaningful commits are available.
-
-☐ Pull Requests are available.
-
-☐ GitHub collaboration evidence is available.
-
-☐ One merged demonstration video is prepared.
-
-☐ Video is less than 15 minutes.
-
-☐ Every member's contribution is represented.
-
-☐ Every member's face is clearly visible during their presentation.
-
-☐ Google Drive is prepared if required.
-
-☐ Google Drive permissions are checked if required.
-
-☐ LMS submission is completed.
-
----
-
-# GitHub Repository
+### GitHub Repository
 
 **Repository:**
 
 **GITHUB REPOSITORY LINK HERE:**
 
 https://github.com/Fahjath/CIT300_DataStructureGraphAnalyzer
+
+### Final Submission Checklist
+
+```text
+[ ] Complete Java project implemented.
+
+[ ] Array component completed.
+
+[ ] Stack component completed.
+
+[ ] Queue component completed.
+
+[ ] Linked List component completed.
+
+[ ] Searching functionality completed.
+
+[ ] Graph component completed.
+
+[ ] BFS / DFS traversal completed.
+
+[ ] Performance / Complexity completed.
+
+[ ] Input validation completed.
+
+[ ] Main console application integrated.
+
+[ ] All member names are correct.
+
+[ ] All student IDs are correct.
+
+[ ] Assigned responsibilities are documented.
+
+[ ] Individual contributions are documented.
+
+[ ] Team participation is documented.
+
+[ ] README is complete and accurate.
+
+[ ] GitHub repository is complete.
+
+[ ] GitHub branches are available where applicable.
+
+[ ] Meaningful commits are available.
+
+[ ] Pull Requests are available where applicable.
+
+[ ] GitHub collaboration evidence is available.
+
+[ ] Final integrated version is available on main.
+
+[ ] One merged demonstration video is prepared.
+
+[ ] Video is less than 15 minutes.
+
+[ ] Every member's contribution is represented in the video.
+
+[ ] Every member's face is clearly visible during their presentation.
+
+[ ] Google Drive is prepared if required.
+
+[ ] Google Drive folder link is prepared if required.
+
+[ ] Required Google Drive permissions are checked if required.
+
+[ ] LMS submission is completed.
+```
 
 ---
 
